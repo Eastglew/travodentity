@@ -1,18 +1,16 @@
-{
-  "name": "travodentity",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "13.4.19",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "qrcode.react": "1.0.1",
-    "html5-qrcode": "2.3.8",
-    "crypto-js": "4.1.1"
-  },
-  "type": "module"
-}
+# Travodentity Pseudo App
+
+This is a simple Next.js pseudo app that helps travelers and hosts securely exchange ID and photo verification information.
+
+## Features
+- Capture passport and selfie images
+- Encrypt and generate QR code
+- Host scans and verifies
+- Optional: submit to a regulatory body like Croatia's eVisitor
+
+## Setup
+1. Run `npm install`
+2. Run `npm run dev`
+3. Open `http://localhost:3000` in your browser
+
+Built with ❤️ by you and ChatGPT.
